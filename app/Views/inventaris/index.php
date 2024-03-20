@@ -2,7 +2,7 @@
 <?= $this->section('content'); ?>
 <div class="container">
     <div class="card">
-        <div class="card-header">
+        <div class="card-header" style="background-color: aqua;">
             <h3>Data Inventaris</h3>
         </div>
         <div class="card-body">
@@ -34,7 +34,7 @@
                         <td><?= $row->jumlah; ?></td>
                         <td><?= $row->kondisi; ?></td>
                         <td>
-                            <a title="Edit" href="<?= base_url("inventaris/edit/$row->id_barang"); ?>" class="btn btn-info">Edit</a>
+                            <a title="Edit" href="<?= base_url("inventaris/edit/$row->id_barang"); ?>" class="btn btn-warning">Edit</a>
                             <a title="Delete" href="<?= base_url("inventaris/delete/$row->id_barang") ?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus data ?')">Delete</a>
                         </td>
                     </tr>

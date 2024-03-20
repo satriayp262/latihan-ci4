@@ -47,6 +47,7 @@
                 </div>
 
                 <div class="form-group">
+                    <a href="<?= base_url('/pegawai'); ?>" class="btn btn-secondary">Kembali</a>
                     <input type="submit" value="Update" class="btn btn-info" />
                 </div>
 
